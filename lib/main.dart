@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Tugas Pertama Flutter'),
     );
   }
 }
@@ -96,20 +96,23 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Sovia Mariska Anjarsari',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
+            const Text(
+              '2031710051',
             ),
+            //Text(
+            //'$_counter',
+            //style: Theme.of(context).textTheme.headline4,
+            //),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      //floatingActionButton: FloatingActionButton(
+      //onPressed: _incrementCounter,
+      //tooltip: 'Increment',
+      //child: const Icon(Icons.add),
+      //), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
